@@ -47,3 +47,26 @@ function solution(answers) {
     }
     return Box
 }
+
+
+
+
+// function solution(answers) {
+//     let answer = []
+//     var a1 = [1, 2, 3, 4, 5];
+//     var a2 = [2, 1, 2, 3, 2, 4, 2, 5]
+//     var a3 = [ 3, 3, 1, 1, 2, 2, 4, 4, 5, 5];
+
+//     let a1c = answers.filter((ele, idx) => ele === a1[idx%a1.length]).length
+//     let a2c = answers.filter((ele, idx) => ele === a2[idx%a2.length]).length
+//     let a3c = answers.filter((ele, idx) => ele === a3[idx%a3.length]).length
+
+//     let max = Math.max(a1c, a2c, a3c)
+
+//     if(a1c === max) answer.push(1) 
+//     if(a2c === max) answer.push(2) 
+//     if(a3c === max) answer.push(3) 
+
+//     return answer
+// }
+// console.log(solution([1,3,2,4,2]))

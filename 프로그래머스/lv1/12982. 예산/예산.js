@@ -7,6 +7,7 @@ function solution(d, budget) {
       count++;
     } else { // budget < box[i]
       break;
+        // return count
     }
   }
   return count;
